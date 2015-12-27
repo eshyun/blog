@@ -1,4 +1,5 @@
-title: Nolboo's Blog
+title: Eunseok Hyun
+motto: Carpe Diem
 
 # Oveerriden by GitHub Pages: https://help.github.com/articles/using-jekyll-with-pages#configuring-jekyll
 safe: true
@@ -24,9 +25,10 @@ redcarpet:
 
 gems:
   - jemoji
+  - jekyll-paginate
 
 paginate: 10
 
 author:
-    twitter: n0lb00
-    github: nolboo
+    twitter: eshyun
+    github: eshyun

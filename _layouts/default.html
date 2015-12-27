@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="/css/site.css">
   <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
   {% if page.description %}<meta name="description" content="{{page.description}}" />{% endif %}
-  <link rel="alternate" type="application/atom+xml" title="RSS Feed for Nolboo's blog" href="/feed.xml" />
+  <link rel="alternate" type="application/atom+xml" title="RSS Feed for Eunseok Hyun's blog" href="/feed.xml" />
   <script src="/js/instantclick.min.js" data-no-instant></script>
   <script data-no-instant>InstantClick.init();</script>
 <!--   {% if page.url == '/index.html' %}
@@ -23,12 +23,13 @@
     <link rel="alternate" hreflang="en" href="/" />
   {% endif %} -->
 
-  <script src="//load.sumome.com/" data-sumo-site-id="dddbf0c343256757114aae302beff42fe1881da466f245b4369b4ba617fed69c" async="async"></script>
-
   {{ page.extra_head }}
 </head>
 <body>
   <div class="top-bar"></div>
+  <!-- to insert Gravatar use following code
+  <img class="avatar" src="//www.gravatar.com/avatar/d63c1874fd13fe60a6dae688c3ab1f32?s=600"/>
+  -->
 
   <div class="container">
     <div class="site">
@@ -36,14 +37,14 @@
         <nav>
           <a class="{% if page.category == '/' %} selected {% endif %}" href="/">홈</a>
           <a class="{% if page.category == 'archive' %} selected {% endif %}" href="/archive/">전체글</a>
-          <a class="{% if page.category == 'trans' %} selected {% endif %}" href="//github.com/nolboo/nolboo.github.io/wiki">번역글 위키</a>
+          <a class="{% if page.category == 'trans' %} selected {% endif %}" href="//hieshyun.wordpress.com">WordPress Blog</a>
         </nav>
         <div class="pull-right right logo">
           <div class="name">
-            <a href="/">Nolboo's Blog</a><br />
+            <a href="/">Eunseok is Blogging</a><br />
             <small>
               <em>
-                  <a href="/">Learn to do. Learn by doing.</a>
+                  <a href="/">Carpe Diem</a>
               </em>
             </small>
           </div>
@@ -75,7 +76,7 @@
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-42615434-1', 'nolboo.github.io');
+    ga('create', 'UA-71776117-1', 'eshyun.github.io');
     ga('send', 'pageview');
   </script>
   <!-- TOC Generator -->
