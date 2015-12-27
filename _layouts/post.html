@@ -23,20 +23,20 @@ layout: default
   </div>
   <ul class="tags post-tags cf">
     {% for tag in page.tags %}
-    <li><a href="search/?tags={{ tag }}">{{ tag | downcase }}</a></li>
+    <li><a href="{{ site.baseurl }}/search/?tags={{ tag }}">{{ tag | downcase }}</a></li>
     {% endfor %}
   </ul>
 </article>
 
 <section class="post-footer">
-  <a href="feed.xml" class="pull-right">
-    <img src="images/rss.jpg" alt="RSS" />
+  <a href="{{ site.baseurl }}/feed.xml" class="pull-right">
+    <img src="{{ site.baseurl }}/images/rss.jpg" alt="RSS" />
   </a>
 </section>
 
 <script defer src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <!-- tag, category search -->
-<script defer src="js/alexpearce.js"></script>
+<script defer src="{{ site.baseurl }}/js/alexpearce.js"></script>
 
 <div class="separator"></div>
 
